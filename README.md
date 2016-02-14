@@ -5,7 +5,8 @@ Export Google Docs as Markdown
 
 ## Installation
 
-Install this add-on from the [Google Web Store]().
+Install this Google Docs add-on from the [Google Web Store](https://chrome.google.com/webstore/detail/hbojhdcnbcondcdfpfocpkjkfkbnbdad/publish-accepted?hl=en-US&gl=SE&authuser=0).
+
 
 ## Usage
 
