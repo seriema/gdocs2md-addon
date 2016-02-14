@@ -6,9 +6,11 @@
  *     running in, inspect e.authMode.
  */
 function onOpen(e) {
-  DocumentApp.getUi().createAddonMenu()
-      .addItem('Send conversion as Email to yourself', 'ConvertToMarkdown')
-      .addToUi();
+  DocumentApp
+    .getUi()
+    .createAddonMenu()
+    .addItem('Email as attachment to ' + Session.getActiveUser().getEmail(), 'ConvertToMarkdown')
+    .addToUi();
 }
 
 /**

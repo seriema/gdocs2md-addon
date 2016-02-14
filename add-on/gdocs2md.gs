@@ -62,9 +62,8 @@ function ConvertToMarkdown() {
   attachments.push({"fileName":DocumentApp.getActiveDocument().getName()+".md", "mimeType": "text/plain", "content": text});
 
   MailApp.sendEmail(Session.getActiveUser().getEmail(),
-                    "[MARKDOWN_MAKER] "+DocumentApp.getActiveDocument().getName(),
-                    "Your converted markdown document is attached (converted from "+DocumentApp.getActiveDocument().getUrl()+")"+
-                    "\n\nDon't know how to use the format options? See http://github.com/mangini/gdocs2md\n",
+                    "Markdown exported: "+DocumentApp.getActiveDocument().getName(),
+                    "Your converted markdown document is attached (converted from "+DocumentApp.getActiveDocument().getUrl()+")",
                     { "attachments": attachments });
 }
 
