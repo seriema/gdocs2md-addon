@@ -1,0 +1,15 @@
+{
+	"name": "Export as Markdown",
+	"version": "1.0.0",
+	"description": "Export your Google Doc as Markdown, including images, and email it as an attachment to yourself.",
+	"LONG DESCRIPTION": "Want to start using Markdown but have old documents in Google Docs? Export your Google Doc as Markdown and have it emailed to yourself.
+
+If you have documents in other formats, like MS Word, you can open them in Google Docs then use this plugin to convert them to Markdown.
+
+Note: This add-on uses the gdocs2md script from https://github.com/mangini/gdocs2md If you have any issues or comments about the Markdown output please direct them there. It hasn't been updated in a while but if there's enough interest in this add-on I might fork that project.",
+	"homepage_url": "https://github.com/seriema/gdocs2md-addon",
+	"manifest_version": 2,
+	"icons": {
+		"128": "logo.png"
+	}
+}
