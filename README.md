@@ -1,6 +1,6 @@
-# gdoc2md-addon
+#  <img src="chrome web store/logo.png" width="45" align="left">gdoc2md-addon
 
-Export Google Docs as Markdown
+> Export Google Docs as Markdown
 
 
 ## Installation
