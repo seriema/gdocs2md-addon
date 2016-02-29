@@ -61,10 +61,15 @@ function ConvertToMarkdown() {
 
   attachments.push({"fileName":DocumentApp.getActiveDocument().getName()+".md", "mimeType": "text/plain", "content": text});
 
-  MailApp.sendEmail(Session.getActiveUser().getEmail(),
+  var email = Session.getActiveUser().getEmail();
+  MailApp.sendEmail(email,
                     "Markdown exported: "+DocumentApp.getActiveDocument().getName(),
                     "Your converted markdown document is attached (converted from "+DocumentApp.getActiveDocument().getUrl()+")",
                     { "attachments": attachments });
+
+  DocumentApp
+  .getUi()
+  .alert("Markdown exported and sent to " + email);
 }
 
 function escapeHTML(text) {
