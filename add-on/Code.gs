@@ -9,7 +9,7 @@ function onOpen(e) {
   DocumentApp
     .getUi()
     .createAddonMenu()
-    .addItem('Email as attachment to ' + Session.getActiveUser().getEmail(), 'ConvertToMarkdown')
+    .addItem('Email as attachment to yourself', 'ConvertToMarkdown')
     .addToUi();
 }
 
