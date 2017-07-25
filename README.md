@@ -5,7 +5,7 @@
 
 ## Installation
 
-Install this Google Docs add-on from the [Google Web Store](https://chrome.google.com/webstore/detail/hbojhdcnbcondcdfpfocpkjkfkbnbdad/publish-accepted?hl=en-US&gl=SE&authuser=0).
+Install this Google Docs add-on from the [Google Web Store](https://chrome.google.com/webstore/detail/hbojhdcnbcondcdfpfocpkjkfkbnbdad/).
 
 
 ## Usage
